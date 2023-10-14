@@ -12,8 +12,8 @@ int main() {
         numb=numb/10;
     }
     if (original == reversed) {
-        printf("Number is palindrome\n");
+        printf("&d is palindrome\n",original);
     } else {
-        printf("Number is not palindrome\n");
+        printf("&d is not palindrome\n",original);
     }
 }
